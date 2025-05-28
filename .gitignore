@@ -34,6 +34,8 @@ ENV/
 temp/
 .env
 *.log
+*.MP3
+*.mp3
 
 # Docker
 .docker/ 
