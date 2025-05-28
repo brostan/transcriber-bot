@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: transcriber-bot
+    volumes:
+      - ./.env:/app/.env
+      - ./temp:/app/temp
+    restart: unless-stopped 
