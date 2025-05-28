@@ -36,6 +36,7 @@ temp/
 *.log
 *.MP3
 *.mp3
+*.txt
 
 # Docker
 .docker/ 
